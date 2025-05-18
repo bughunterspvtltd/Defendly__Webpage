@@ -46,7 +46,7 @@ const Features = () => {
               className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="bg-white/10 rounded-xl p-3 w-fit mb-6">
+              <div className=" rounded-xl p-3 w-fit mb-6">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-sora font-semibold mb-3 text-white">{feature.title}</h3>
