@@ -114,10 +114,12 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.custom-radial-gradient {
+.custom-dark-gradient {
   background: radial-gradient(
-    ellipse at center,
-    #000000 50%,
-    #00457F 100%
+    ellipse at bottom center,
+    rgba(0, 69, 127, 0.8) 0%,
+    rgba(0, 30, 60, 0.95) 40%,
+    rgba(0, 0, 0, 1) 100%
   );
 }
+
