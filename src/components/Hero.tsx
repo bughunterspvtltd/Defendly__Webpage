@@ -50,9 +50,10 @@ const Hero = () => {
         </div>
 
         {/* Bottom gradient */}
-               <div className="absolute bottom-0 left-0 right-0 h-48 w-full bg-[linear-gradient(to_top,_black_40%,_#00457F_100%)] rounded-t-[130px] blur-[2px]">
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-6 bg-white/20 blur-md rounded-full" />
+            <div className="absolute bottom-0 left-0 right-0 h-48 w-full bg-[linear-gradient(to_top,_black_40%,_#00457F_100%)] rounded-t-[130px] blur-[2px] overflow-hidden">
+  <div className="w-full h-6 mt-0 bg-white/15 blur-md" />
 </div>
+
 
 
       </div>
