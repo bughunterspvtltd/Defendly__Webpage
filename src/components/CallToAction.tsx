@@ -1,7 +1,7 @@
 const CallToAction = () => {
   return (
     <section className="w-[95%] max-w-[1440px] mx-auto py-8">
-      <div className="relative overflow-hidden rounded-[24px] px-8 py-16 bg-[linear-gradient(140deg,_#000000_22%,_#00457F_65%)]>
+      <div className="relative overflow-hidden rounded-[24px] px-8 py-16 bg-gradient-to-r from-black via-[#001d3d] to-[#00457F]">
   {/* Background decorative elements */}
   <div className="absolute -top-20 -left-20 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
   <div className="absolute -bottom-40 -right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
