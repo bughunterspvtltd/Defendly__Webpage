@@ -53,8 +53,8 @@ const Hero = () => {
               ].map((item, index) => (
                 <div key={index} className="text-center">
                   <h3 className="text-4xl font-sora font-bold mb-2">{item.stat}</h3>
-                  <p className="text-sm font-semibold text-white/80 mb-2">{item.label}</p>
-                  <p className="text-xs text-[#fcfcfc]">{item.desc}</p>
+                  <p className="text-sm font-semibold text-white mb-2">{item.label}</p>
+                  <p className="text-xs text-[#fcfcfc /80]">{item.desc}</p>
                 </div>
               ))}
             </div>
