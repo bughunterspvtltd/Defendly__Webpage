@@ -62,9 +62,8 @@ const Hero = () => {
         </div>
 
         {/* Bottom curve */}
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-dark-blue-900 transform translate-y-12 rounded-[100%]"></div>
-      </div>
-    </section>
+<div className="absolute bottom-0 left-0 right-0 h-24 bg-dark-blue-900 transform translate-y-12 rounded-[100%]"></div>
+      </div>    </section>
   );
 };
 
