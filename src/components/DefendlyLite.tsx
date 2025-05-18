@@ -62,11 +62,19 @@ const DefendlyLite = () => {
 
           <div className="text-center fade-in">
             <a 
-              href="#" 
-              className="inline-block bg-gradient-to-r from-primary-blue to-accent-purple text-white px-8 py-4 rounded-full font-semibold hover:shadow-glow transition-all"
-            >
-              Add to Chrome
-            </a>
+  href="https://chromewebstore.google.com/detail/defendly/aefmpomeojdaegmpddinpfifebnccmgi?hl=en" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="inline-flex items-center bg-gradient-to-r from-[#4285F4] via-[#34A853] to-[#FBBC05] text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transition-all"
+>
+  <img 
+    src="/chrome-icon.png"  // 👈 Make sure this is the correct path to your local icon
+    alt="Chrome Icon"
+    className="w-5 h-5 mr-2"
+  />
+  Add to Chrome
+</a>
+
           </div>
         </div>
       </div>
