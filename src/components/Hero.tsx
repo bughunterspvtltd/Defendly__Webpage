@@ -23,7 +23,8 @@ const Hero = () => {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 px-8 py-28 text-center">
+        <div className="relative z-10 px-8 pt-28 pb-8 text-center">
+
           <div className="max-w-4xl mx-auto">
             <h1 className="font-sora text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="text-[#fcfcfc]/80">Your</span> AI-Powered<br />Security <span className="text-[#fcfcfc]/80">Risk Platform</span>
@@ -62,9 +63,8 @@ const Hero = () => {
         </div>
 
         {/* Bottom curve */}
-     
-  <div className="absolute bottom-0 left-0 right-0 h-[280px] rounded-t-[120px] custom-dark-gradient z-[-1]"></div>
-
+       <div className="absolute bottom-0 left-0 right-0 h-48 w-full rounded-t-[100px] custom-radial-gradient">
+</div>
 
 
       </div>
