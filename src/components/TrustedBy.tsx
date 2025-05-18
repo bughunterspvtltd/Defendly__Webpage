@@ -1,6 +1,6 @@
 const TrustedBy = () => {
   const logos = [
-    { name: 'Brand1', url: 'https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png' },
+    // { name: 'Brand1', url: 'https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png' },
     { name: 'Brand2', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' },
     { name: 'Brand3', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png' },
     { name: 'Brand4', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png' },
