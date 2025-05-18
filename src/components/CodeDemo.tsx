@@ -7,7 +7,7 @@ const CodeDemo = () => {
         {/* Background decorative elements */}
         <div className="absolute -bottom-40 -right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
         
-        <div className="relative z-10 max-w-4xl mx-auto">
+        <div className="relative z-10 max-w-5xl mx-auto">
           
 
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 mb-12">
