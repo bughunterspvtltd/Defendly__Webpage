@@ -36,7 +36,7 @@ const WhoItsFor = () => {
 
   return (
     <section id="who-it's-for" className="w-[95%] max-w-[1440px] mx-auto">
-<div style={{ background: 'linear-gradient(18deg, #1A2D52  36%, #000000 65%)' }} className="rounded-b-[24px] px-8 py-16">       
+<div style={{ background: 'linear-gradient(18deg, #000000  36%, #000000 65%)' }} className="rounded-b-[24px] px-8 py-16">       
   <h2 className="section-title text-white">Who It's Built For</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
