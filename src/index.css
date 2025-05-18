@@ -117,7 +117,7 @@ body {
 .custom-radial-gradient {
   background: radial-gradient(
     ellipse at center,
-    #000000 40%,
+    #000000 60%,
     #00457F 40%
   );
 }
