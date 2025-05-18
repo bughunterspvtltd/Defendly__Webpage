@@ -1,0 +1,115 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/sora/400.css';
+@import '@fontsource/sora/600.css';
+@import '@fontsource/sora/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-blue-900: #001F3F;
+  --dark-blue-800: #1A2D52;
+  --primary-blue: #1D66F8;
+  --accent-purple: #A136E7;
+  --text-gray: #D8D8D8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  background: white;
+  color: white;
+  
+}
+
+/* Base styles */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+  }
+  
+  h1 {
+    @apply text-5xl font-bold leading-tight md:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl font-bold leading-tight md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl font-bold leading-tight md:text-3xl;
+  }
+  
+  p {
+    @apply text-gray-300 leading-relaxed;
+  }
+}
+
+/* Components */
+@layer components {
+  .container-padding {
+    @apply px-5 sm:px-10 md:px-20 lg:px-24 max-w-[1440px] mx-auto;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .primary-button {
+    @apply bg-[#0A2540] text-white px-8 py-4 rounded-full transition-all hover:bg-[#0A2540]/90;
+  }
+  
+  .secondary-button {
+    @apply bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full transition-all hover:bg-white/20;
+  }
+  
+  .card {
+    @apply bg-dark-blue-800/50 backdrop-blur-lg rounded-[24px] p-6 transition-all hover:shadow-card;
+  }
+  
+  .feature-card {
+    @apply card hover:scale-[1.02];
+  }
+  
+  .feature-icon {
+    @apply text-accent-purple w-12 h-12 mb-4;
+  }
+  
+  .section-title {
+    @apply text-center text-3xl md:text-4xl font-bold mb-12 font-sora;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom shadow effects */
+.shadow-glow {
+  box-shadow: 0 0 25px rgba(29, 102, 248, 0.5);
+}
+
+.shadow-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 10px rgba(29, 102, 248, 0.1);
+}
+
+/* Glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
