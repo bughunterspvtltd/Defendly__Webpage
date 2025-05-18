@@ -3,28 +3,15 @@ import { Shield } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="home" className="w-[95%] max-w-[1440px] mx-auto pt-20">
-      <div className="bg-hero-gradient rounded-[24px] overflow-hidden relative">
+      <div className="bg-gradient-to-l from-sky-900 to-black rounded-[32px] overflow-hidden relative">
         {/* Background Image */}
-        <div 
-          className="absolute inset-0 z-0"
-          style={{
-            background: `
-              radial-gradient(50% 50% at 50% 50%, rgba(29, 102, 248, 0.1) 0%, rgba(29, 102, 248, 0.05) 100%),
-              linear-gradient(18deg, #00457F 26%, #000000 65%)
-            `,
-            opacity: '1'
-          }}
-        >
-          <div className="absolute inset-0" style={{ 
-            background: 'radial-gradient(50% 50% at 50% 50%, rgba(161, 54, 231, 0.15) 0%, rgba(161, 54, 231, 0.05) 100%)',
-            mixBlendMode: 'overlay'
-          }} />
-          <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-t from-black/50 to-transparent" />
+        <div className="absolute inset-0 z-0">
+          <div className="absolute w-full h-full opacity-40 bg-[radial-gradient(ellipse_33.70%_50.00%_at_50.00%_0.00%,_white_0%,_rgba(255,_255,_255,_0)_68%)]" />
+          <div className="absolute w-full h-full opacity-75 bg-[radial-gradient(ellipse_64.40%_50.00%_at_50.00%_50.00%,_black_78%,_#00457F_100%)] shadow-[0px_0px_250px_0px_rgba(230,169,251,0.60)]" />
         </div>
 
         {/* Content */}
         <div className="relative z-10 px-8 pt-28 pb-8 text-center">
-
           <div className="max-w-4xl mx-auto">
             <h1 className="font-sora text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="text-[#fcfcfc]/80">Your</span> AI-Powered<br />Security <span className="text-[#fcfcfc]/80">Risk Platform</span>
@@ -55,18 +42,15 @@ const Hero = () => {
                 <div key={index} className="text-center">
                   <h3 className="text-4xl font-sora font-bold mb-2">{item.stat}</h3>
                   <p className="text-sm font-semibold text-white mb-2">{item.label}</p>
-                  <p className="text-xs text-[#fcfcfc /80]">{item.desc}</p>
+                  <p className="text-xs text-[#fcfcfc]/80">{item.desc}</p>
                 </div>
               ))}
             </div>
           </div>
         </div>
 
-        {/* Bottom curve */}
-       <div className="absolute bottom-0 left-0 right-0 h-48 w-full rounded-t-[130px] custom-radial-gradient">
-</div>
-
-
+        {/* Bottom gradient */}
+        <div className="absolute bottom-0 left-0 right-0 h-48 w-full bg-[radial-gradient(ellipse_64.40%_50.00%_at_50.00%_50.00%,_black_78%,_#00457F_100%)] rounded-t-[130px]" />
       </div>
     </section>
   );
