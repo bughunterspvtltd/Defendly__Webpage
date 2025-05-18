@@ -8,7 +8,7 @@ const CallToAction = () => {
         
         <div className="relative z-10">
           <div className="max-w-4xl mx-auto text-center fade-in">
-<h2 className="text-4xl md:text-4xl font-sora font-bold mb-6 text-white italic">
+<h2 className="text-3xl md:text-4xl font-sora font-bold mb-6 text-white italic">
   Defendly doesn't just scan —{" "}
   <span className="text-[20px] font-normal italic">
     it tells you where to focus, why it matters, and how to fix it.
