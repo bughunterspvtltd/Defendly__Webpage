@@ -27,7 +27,7 @@ const CallToAction = () => {
     </defs>
   </svg>
 </div>
-    </div>
+
         
         <div className="relative z-10">
           <div className="max-w-4xl mx-auto text-center fade-in">
