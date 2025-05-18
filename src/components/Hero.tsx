@@ -28,7 +28,7 @@ const Hero = () => {
             <h1 className="font-sora text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="text-[#fcfcfc]/80">Your</span> AI-Powered<br />Security <span className="text-[#fcfcfc]/80">Risk Platform</span>
             </h1>
-            <p className="text-base text-[#fcfcfc] max-w-3xl mx-auto mb-8 leading-relaxed">
+            <p className="text-base text-[#fcfcfc /80] max-w-3xl mx-auto mb-8 leading-relaxed">
               Defendly discovers assets, identifies misconfigurations, and transforms raw scan data into prioritized, 
               actionable risk metrics. Get instant visibility, threat scoring, and smart remediation — all mapped to your 
               business-critical assets.
