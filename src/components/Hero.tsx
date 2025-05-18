@@ -62,8 +62,10 @@ const Hero = () => {
         </div>
 
         {/* Bottom curve */}
-       <div className="absolute bottom-0 left-0 right-0 h-48 w-full rounded-t-[100px] custom-radial-gradient">
+     <div className="relative w-full">
+  <div className="absolute bottom-0 left-0 right-0 h-[280px] rounded-t-[120px] custom-dark-gradient z-[-1]"></div>
 </div>
+
 
 
       </div>
