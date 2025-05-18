@@ -28,12 +28,13 @@ const Navbar = () => {
           </a>
           
           <div className="flex items-center gap-2 md:gap-4">
-            <button className="hidden md:block text-gray-900 font-medium hover:text-primary-blue transition-colors">
-              LOGIN TO DASHBOARD
-            </button>
-            <button className="text-sm md:text-base bg-[#0A2540] text-white px-4 md:px-6 py-2 rounded-lg hover:bg-[#0A2540]/90 transition-all">
-              REQUEST NOW
-            </button>
+<button className="hidden md:block text-gray-900 text-sm font-medium hover:text-primary-blue transition-colors">
+  LOGIN TO DASHBOARD
+</button>
+<button className="text-xs md:text-sm bg-[#0A2540] text-white px-4 md:px-6 py-2 rounded-lg hover:bg-[#0A2540]/90 transition-all">
+  REQUEST NOW
+</button>
+
             <button 
               className="md:hidden text-gray-900 p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
