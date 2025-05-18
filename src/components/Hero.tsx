@@ -62,8 +62,9 @@ const Hero = () => {
         </div>
 
         {/* Bottom curve */}
-        <div className="absolute bottom-0 left-0 right-0 h-96 w-full bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#3B82F6] rounded-t-[100px]">
+       <div className="absolute bottom-0 left-0 right-0 h-48 w-full rounded-t-[100px] custom-radial-gradient">
 </div>
+
 
       </div>
     </section>
