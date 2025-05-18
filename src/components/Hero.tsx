@@ -26,9 +26,9 @@ const Hero = () => {
         <div className="relative z-10 px-8 py-28 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="font-sora text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Your AI-Powered<br />Security Risk Platform
+              <span className="text-white">Your</span> AI-Powered<br />Security <span className="text-[#fcfcfc]/80">Risk Platform</span>
             </h1>
-            <p className="text-lg text-text-gray max-w-3xl mx-auto mb-8 leading-relaxed">
+            <p className="text-base text-[#fcfcfc] max-w-3xl mx-auto mb-8 leading-relaxed">
               Defendly discovers assets, identifies misconfigurations, and transforms raw scan data into prioritized, 
               actionable risk metrics. Get instant visibility, threat scoring, and smart remediation — all mapped to your 
               business-critical assets.
@@ -54,7 +54,7 @@ const Hero = () => {
                 <div key={index} className="text-center">
                   <h3 className="text-4xl font-sora font-bold mb-2">{item.stat}</h3>
                   <p className="text-sm font-semibold text-white/80 mb-2">{item.label}</p>
-                  <p className="text-sm text-text-gray">{item.desc}</p>
+                  <p className="text-xs text-[#fcfcfc]">{item.desc}</p>
                 </div>
               ))}
             </div>
