@@ -22,7 +22,7 @@ const CodeDemo = () => {
 
             <div className="text-center mb-12 fade-in">
             <h2 className="text-3xl md:text-4xl font-sora font-bold mb-4 text-white">
-              Defendly Lite – Free & Open Source Chrome Extension
+              Defendly Lite <br> Free & Open Source Chrome Extension
             </h2>
             <p className="text-text-gray text-lg">
               A lightweight, browser-based version of Defendly that brings instant security checks to your fingertips — no login required.
