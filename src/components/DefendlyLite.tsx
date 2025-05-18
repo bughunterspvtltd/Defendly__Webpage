@@ -5,7 +5,7 @@ const DefendlyLite = () => {
     <section className="w-[95%] max-w-[1440px] mx-auto">
       <div className="bg-[#000000] px-8 py-16 relative overflow-hidden">
         {/* Background decorative elements */}
-        <div className="absolute -top-20 -left-20 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
+        {/* <div className="absolute -top-20 -left-20 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div> */}
         <div className="absolute -bottom-40 -right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto">
