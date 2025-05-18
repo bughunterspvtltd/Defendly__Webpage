@@ -18,9 +18,9 @@ const Navbar = () => {
   }, [scrolled]);
 
   return (
-    <>
-      {/* Fixed white top navbar */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white py-4">
+    <header className="fixed top-0 left-0 right-0 z-50">
+      {/* Top white navbar */}
+      <div className="bg-white py-4">
         <div className="w-[95%] max-w-[1440px] mx-auto flex justify-between items-center">
           <a href="#" className="flex items-center gap-2">
             <Shield className="h-6 w-6 md:h-8 md:w-8 text-primary-blue" />
@@ -44,6 +44,51 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Scrollable glass navigation menu - Desktop */}
-      <div className="hidden md:flex w-[95%] max-w-[1440px] mx-auto justify-center mt-28">
-        <nav className="backdrop-blur-md bg-white/10
+      {/* Glass effect navigation menu - Desktop */}
+      <div className="hidden md:flex w-[95%] max-w-[1440px] mx-auto justify-center mt-8">
+        <nav className="backdrop-blur-md bg-white/10 rounded-full px-8 py-4">
+          <ul className="flex space-x-8">
+            {['Home', 'Discover', 'Key Features', 'Why Defendly', "Who It's Built For", 'Contact'].map((item) => (
+              <li key={item}>
+                <a 
+                  href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                  className="text-sm font-medium text-white/90 hover:text-white transition-colors"
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+
+      {/* Mobile Menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden w-[95%] max-w-[1440px] mx-auto mt-2">
+          <nav className="backdrop-blur-md bg-white/10 rounded-2xl overflow-hidden">
+            <ul className="flex flex-col">
+              {['Home', 'Discover', 'Key Features', 'Why Defendly', "Who It's Built For", 'Contact'].map((item) => (
+                <li key={item} className="border-b border-white/10 last:border-b-0">
+                  <a 
+                    href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                    className="block px-6 py-3 text-sm font-medium text-white/90 hover:text-white hover:bg-white/5 transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
+              <li className="px-6 py-3 border-t border-white/10">
+                <button className="w-full text-sm text-white/90 font-medium hover:text-white transition-colors text-left">
+                  LOGIN TO DASHBOARD
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      )}
+    </header>
+  );
+};
+
+export default Navbar;
