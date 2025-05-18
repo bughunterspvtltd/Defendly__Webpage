@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="relative z-10 px-8 py-28 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="font-sora text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="text-white">Your</span> AI-Powered<br />Security <span className="text-[#fcfcfc]/80">Risk Platform</span>
+              <span className="text-white"><span className="text-[#fcfcfc]/80">Your</span> AI-Powered<br />Security <span className="text-[#fcfcfc]/80">Risk Platform</span>
             </h1>
             <p className="text-base text-[#fcfcfc] max-w-3xl mx-auto mb-8 leading-relaxed">
               Defendly discovers assets, identifies misconfigurations, and transforms raw scan data into prioritized, 
