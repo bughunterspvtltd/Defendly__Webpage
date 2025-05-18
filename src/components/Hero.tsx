@@ -50,7 +50,8 @@ const Hero = () => {
         </div>
 
         {/* Bottom gradient */}
-               <div className="absolute bottom-0 left-0 right-0 h-48 w-full bg-[radial-gradient(ellipse_64.40%_50.00%_at_50.00%_50.00%,_black_78%,_#00457F_100%)] rounded-t-[130px] blur-[2px]" />
+               <div className="absolute bottom-0 left-0 right-0 h-48 w-full bg-gradient-to-t from-black to-[#00457F] rounded-t-[130px] blur-[2px]" />
+
 
       </div>
     </section>
