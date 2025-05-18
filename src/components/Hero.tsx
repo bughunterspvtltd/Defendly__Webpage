@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="bg-gradient-to-l from-sky-900 to-black rounded-[32px] overflow-hidden relative">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute w-full h-full opacity-40 bg-[radial-gradient(ellipse_33.70%_50.00%_at_50.00%_0.00%,_white_0%,_rgba(255,_255,_255,_0)_68%)]" />
+          <div className="absolute w-full h-full opacity-40 bg-[radial-gradient(ellipse_33.70%_50.00%_at_50.00%_0.00%,_rgba(255,_255,_255,_0)_68%)]" />
          
         </div>
 
