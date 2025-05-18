@@ -8,14 +8,7 @@ const CodeDemo = () => {
         <div className="absolute -bottom-40 -right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto">
-          <div className="text-center mb-12 fade-in">
-            <h2 className="text-3xl md:text-4xl font-sora font-bold mb-4 text-white">
-              Defendly Lite – Free & Open Source Chrome Extension
-            </h2>
-            <p className="text-text-gray text-lg">
-              A lightweight, browser-based version of Defendly that brings instant security checks to your fingertips — no login required.
-            </p>
-          </div>
+          
 
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 mb-12">
             <div className="flex justify-between items-center mb-4">
@@ -26,6 +19,15 @@ const CodeDemo = () => {
               </div>
               <span className="text-xs text-gray-400">defendly_scan.json</span>
             </div>
+
+            <div className="text-center mb-12 fade-in">
+            <h2 className="text-3xl md:text-4xl font-sora font-bold mb-4 text-white">
+              Defendly Lite – Free & Open Source Chrome Extension
+            </h2>
+            <p className="text-text-gray text-lg">
+              A lightweight, browser-based version of Defendly that brings instant security checks to your fingertips — no login required.
+            </p>
+          </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="fade-in">
