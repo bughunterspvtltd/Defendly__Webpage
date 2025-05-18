@@ -5,7 +5,6 @@ import TrustedBy from './components/TrustedBy';
 import ProductPreview from './components/ProductPreview';
 import Features from './components/Features';
 import CodeDemo from './components/CodeDemo';
-import DefendlyLite from './components/DefendlyLite';
 import WhyDefendly from './components/WhyDefendly';
 import WhoItsFor from './components/WhoItsFor';
 import CallToAction from './components/CallToAction';
@@ -30,7 +29,6 @@ function App() {
         <ProductPreview />
         <Features />
         <CodeDemo />
-        <DefendlyLite />
         <WhyDefendly />
         <WhoItsFor />
         <CallToAction />
@@ -40,4 +38,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
