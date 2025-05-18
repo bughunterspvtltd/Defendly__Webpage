@@ -1,9 +1,23 @@
+import { Shield, Star, FileText, Download } from 'lucide-react';
+
 const CodeDemo = () => {
   return (
     <section className="w-[95%] max-w-[1440px] mx-auto">
-      <div className="bg-black px-8 py-16">
-        <div className="max-w-4xl mx-auto fade-in">
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+      <div className="bg-black px-8 py-16 relative overflow-hidden">
+        {/* Background decorative elements */}
+        <div className="absolute -bottom-40 -right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+        
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <div className="text-center mb-12 fade-in">
+            <h2 className="text-3xl md:text-4xl font-sora font-bold mb-4 text-white">
+              Defendly Lite – Free & Open Source Chrome Extension
+            </h2>
+            <p className="text-text-gray text-lg">
+              A lightweight, browser-based version of Defendly that brings instant security checks to your fingertips — no login required.
+            </p>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 mb-12">
             <div className="flex justify-between items-center mb-4">
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 rounded-full bg-red-500"></div>
@@ -12,38 +26,64 @@ const CodeDemo = () => {
               </div>
               <span className="text-xs text-gray-400">defendly_scan.json</span>
             </div>
-            
-            <pre className="text-sm md:text-base overflow-x-auto rounded-lg p-4 bg-[#0A2540]">
-              <code className="font-mono">
-                <span className="text-blue-400">&#123;</span>
-                {`
-  "scan_results": {
-    "scan_id": "def-2023-09-15-001",
-    "timestamp": "2025-06-20T08:15:30Z",
-    "risk_score": 78.4,
-    "findings": [
-      {
-        "severity": "critical",
-        "category": "misconfiguration",
-        "description": "S3 bucket with public write access",
-        "resource": "storage/customer-data-backup",
-        "remediation": "Update bucket policy to restrict access",
-        "ai_context": "This misconfiguration could lead to data exfiltration"
-      },
-      {
-        "severity": "high",
-        "category": "outdated_dependency",
-        "description": "Log4j vulnerability (CVE-2021-44228)",
-        "resource": "api-service/lib/log4j-core-2.14.1.jar",
-        "remediation": "Update to log4j version 2.17.0 or later",
-        "ai_context": "Multiple active exploits seen in the wild"
-      }
-    ]
-  }
-                `}
-                <span className="text-blue-400">&#125;</span>
-              </code>
-            </pre>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="fade-in">
+                <Shield className="w-8 h-8 text-accent-purple mb-4" />
+                <h3 className="text-xl font-sora font-semibold mb-3 text-white">
+                  Instant Website Security Grades
+                </h3>
+                <p className="text-text-gray">
+                  Get a quick security score for any website you visit based on misconfigurations, missing headers, and exposure risks.
+                </p>
+              </div>
+
+              <div className="fade-in delay-100">
+                <Star className="w-8 h-8 text-accent-purple mb-4" />
+                <h3 className="text-xl font-sora font-semibold mb-3 text-white">
+                  One-Click Vulnerability Scan
+                </h3>
+                <p className="text-text-gray">
+                  Scan websites in real-time from your browser — perfect for quick assessments without logging into the main platform.
+                </p>
+              </div>
+
+              <div className="fade-in delay-200">
+                <FileText className="w-8 h-8 text-accent-purple mb-4" />
+                <h3 className="text-xl font-sora font-semibold mb-3 text-white">
+                  Exportable Security Reports
+                </h3>
+                <p className="text-text-gray">
+                  Download detailed scan results in a single click for further review or documentation.
+                </p>
+              </div>
+
+              <div className="fade-in delay-300">
+                <Download className="w-8 h-8 text-accent-purple mb-4" />
+                <h3 className="text-xl font-sora font-semibold mb-3 text-white">
+                  Completely Free & Open Source
+                </h3>
+                <p className="text-text-gray">
+                  Use it without restrictions. No sign-up. No tracking. Fully transparent and community-friendly.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center fade-in">
+            <a 
+              href="https://chromewebstore.google.com/detail/defendly/aefmpomeojdaegmpddinpfifebnccmgi?hl=en" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-gradient-to-r from-[#4285F4] via-[#34A853] to-[#FBBC05] text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transition-all"
+            >
+              <img 
+                src="/chrome-icon.png"
+                alt="Chrome Icon"
+                className="w-5 h-5 mr-2"
+              />
+              Add to Chrome
+            </a>
           </div>
         </div>
       </div>
