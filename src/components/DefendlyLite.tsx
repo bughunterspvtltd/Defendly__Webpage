@@ -3,7 +3,7 @@ import { Shield, Star, FileText, Download } from 'lucide-react';
 const DefendlyLite = () => {
   return (
     <section className="w-[95%] max-w-[1440px] mx-auto">
-      <div className="bg-[#0A2540] px-8 py-16 relative overflow-hidden">
+      <div className="bg-[#000000] px-8 py-16 relative overflow-hidden">
         {/* Background decorative elements */}
         <div className="absolute -top-20 -left-20 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
