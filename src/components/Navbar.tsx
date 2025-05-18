@@ -18,7 +18,7 @@ const Navbar = () => {
   }, [scrolled]);
 
   return (
-    <header>
+    <header className="fixed top-0 left-0 right-0 z-50">
       {/* Top white navbar */}
       <div className="bg-white py-4">
         <div className="w-[95%] max-w-[1440px] mx-auto flex justify-between items-center">
