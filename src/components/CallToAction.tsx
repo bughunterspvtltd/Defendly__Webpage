@@ -26,7 +26,7 @@ const CallToAction = () => {
       </linearGradient>
     </defs>
   </svg>
-</div>
+
 
         
         <div className="relative z-10">
