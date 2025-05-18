@@ -16,7 +16,8 @@ const Hero = () => {
           }}
         >
           <div className="absolute inset-0" style={{ 
-            background: 'radial-gradient(50% 50% at 50% 50%, rgba(161, 54, 231, 0.15) 0%, rgba(161, 54, 231, 0.05) 100%)',
+            background: radial-gradient(50% 50% at 50% 50%, rgba(161, 54, 231, 0.15) 0%, rgba(161, 54, 231, 0.05) 100%);,
+
             mixBlendMode: 'overlay'
           }} />
           <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-t from-black/50 to-transparent" />
