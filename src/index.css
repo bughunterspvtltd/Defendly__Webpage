@@ -78,7 +78,7 @@ body {
   }
   
   .feature-icon {
-    @apply text-accent-purple w-12 h-12 mb-4;
+    @apply text-accent-purple w-12 h-12;
   }
   
   .section-title {
