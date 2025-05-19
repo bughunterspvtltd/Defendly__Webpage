@@ -16,16 +16,23 @@ const ProductPreview = () => {
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
               <div className="mx-auto bg-white/10 backdrop-blur-sm rounded-full text-xs px-4 py-1 text-gray-300">
-                ai.defendly.app
+                defendly_scan.json
               </div>
             </div>
             
-            {/* Product screenshot */}
-            <img 
-              src="https://youtu.be/Q-FzRg6V-b4?si=3HYFfkqop4rpTkel" 
-              alt="Defendly AI Assistant Interface" 
-              className="w-full h-auto object-cover"
-            />
+            {/* Product video */}
+            <div className="w-full h-auto aspect-video">
+              <video 
+                className="w-full h-full object-cover"
+                controls
+                muted
+                autoPlay
+                loop
+              >
+                <source src="/path/to/your/video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
           
           <p className="mt-8 text-text-gray max-w-2xl mx-auto fade-in">
