@@ -20,7 +20,7 @@ const DefendlyLite = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 fade-in">
-              <Shield className="w-8 h-16 text-accent-purple mb-4" />
+              <Shield className="w-16 h-16 text-accent-purple mb-4" />
               <h3 className="text-xl font-sora font-semibold mb-3 text-white">
                 Instant Website Security Grades
               </h3>
