@@ -31,14 +31,12 @@ const Navbar = () => {
 <button className="hidden md:block text-gray-900 text-sm font-medium hover:text-primary-blue transition-colors">
   LOGIN TO DASHBOARD
 </button>
-<a
-  href="https://www.bughunters.io/contact-us"
-  target="_blank"
-  rel="noopener noreferrer"
+<button
   className="text-xs md:text-sm bg-[#0A2540] text-white px-4 md:px-6 py-2 rounded-lg hover:bg-[#0A2540]/90 transition-all"
+  onClick={() => window.open('https://your-request-link.com', '_blank', 'noopener,noreferrer')}
 >
   REQUEST NOW
-</a>
+</button>
 
             <button 
               className="md:hidden text-gray-900 p-2"
