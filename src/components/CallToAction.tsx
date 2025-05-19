@@ -21,9 +21,13 @@ const CallToAction = () => {
 
             
             <div className="flex flex-col sm:flex-row justify-center gap-4 mt-10">
-              <button className="primary-button flex items-center justify-center gap-2">
-                <span>Try It Free</span>
-              </button>
+              <button
+  className="primary-button flex items-center justify-center gap-2"
+  onClick={() => window.open('https://your-try-it-free-link.com', '_blank', 'noopener,noreferrer')}
+>
+  <span>Try It Free</span>
+</button>
+
               <button className="secondary-button flex items-center justify-center gap-2">
                 <span>Talk to Sales</span>
               </button>
