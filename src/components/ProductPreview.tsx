@@ -22,7 +22,7 @@ const ProductPreview = () => {
             
             {/* Product screenshot */}
             <img 
-              src="https://i.ibb.co/RGmKKZrw/Defendly-Flyer-A4.jpg" 
+              src="https://youtu.be/Q-FzRg6V-b4?si=3HYFfkqop4rpTkel" 
               alt="Defendly AI Assistant Interface" 
               className="w-full h-auto object-cover"
             />
