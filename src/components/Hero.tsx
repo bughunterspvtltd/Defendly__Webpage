@@ -2,7 +2,7 @@ import { Shield } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="w-[95%] max-w-[1440px] mx-auto pt-20">
+    <section id="home" className="w-[95%] max-w-[1920px] mx-auto pt-20">
       <div className="bg-gradient-to-l from-sky-900 to-black rounded-[32px] overflow-hidden relative">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
