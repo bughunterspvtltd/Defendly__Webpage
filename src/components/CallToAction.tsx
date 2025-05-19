@@ -28,9 +28,13 @@ const CallToAction = () => {
                   <span>Try It Free</span>
                 </button>
 
-              <button className="secondary-button flex items-center justify-center gap-2">
+              <button
+                className="secondary-button flex items-center justify-center gap-2"
+                onClick={() => window.open('https://www.bughunters.io/contact-us', '_blank', 'noopener,noreferrer')}
+              >
                 <span>Get Demo</span>
               </button>
+
             </div>
           </div>
         </div>
