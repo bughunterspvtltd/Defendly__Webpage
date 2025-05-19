@@ -53,9 +53,13 @@ const Footer = () => {
               hello@bughunters.io
             </a>
             <div className="mt-6">
-              <button className="primary-button text-sm py-3">
+              <button
+                className="primary-button text-sm py-3"
+                onClick={() => window.open('https://www.bughunters.io/contact-us', '_blank', 'noopener,noreferrer')}
+              >
                 Schedule a Demo
               </button>
+
             </div>
           </div>
         </div>
