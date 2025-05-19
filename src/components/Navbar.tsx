@@ -33,7 +33,7 @@ const Navbar = () => {
 </button>
 <button
   className="text-xs md:text-sm bg-[#0A2540] text-white px-4 md:px-6 py-2 rounded-lg hover:bg-[#0A2540]/90 transition-all"
-  onClick={() => window.open('https://your-request-link.com', '_blank', 'noopener,noreferrer')}
+  onClick={() => window.open('https://www.bughunters.io/contact-us', '_blank', 'noopener,noreferrer')}
 >
   REQUEST NOW
 </button>
