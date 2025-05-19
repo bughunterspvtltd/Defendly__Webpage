@@ -35,7 +35,7 @@ const Features = () => {
   ];
 
   return (
-    <section id="key-features" className="w-[95%] max-w-[1440px] mx-auto">
+    <section id="key-features" className="w-[95%] max-w-[1920px] mx-auto">
       <div className="bg-black px-8 py-16">
         <h2 className="section-title text-white">Key Features That Set Us Apart</h2>
         
