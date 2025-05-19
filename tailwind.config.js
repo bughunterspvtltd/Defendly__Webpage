@@ -9,7 +9,7 @@ export default {
           900: '#001F3F',
         },
         'primary-blue': '#1D66F8',
-        'accent-purple': '#00457F ',
+        'accent-purple': '#008bff ',
         'text-gray': '#D8D8D8',
       },
       fontFamily: {
