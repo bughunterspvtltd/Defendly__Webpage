@@ -45,9 +45,13 @@ const Hero = () => {
               <button className="primary-button">
                 Try for free
               </button>
-              <button className="secondary-button">
-                Get a demo
-              </button>
+              <button
+  className="secondary-button"
+  onClick={() => window.open('https://your-demo-link.com', '_blank', 'noopener,noreferrer')}
+>
+  Get a demo
+</button>
+
             </div>
             
             {/* Stats */}
