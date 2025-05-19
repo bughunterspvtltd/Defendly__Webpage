@@ -29,7 +29,7 @@ const CodeDemo = () => {
             </p>
           </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 fade-in visible">
                 <Shield className="w-8 h-8 text-accent-purple mb-4" />
                 <h3 className="text-xl font-sora font-semibold mb-3 text-white">
