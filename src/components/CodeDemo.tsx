@@ -69,7 +69,9 @@ const CodeDemo = () => {
                   Use it without restrictions. No sign-up. No tracking. Fully transparent and community-friendly.
                 </p>
               </div>
-                  <div className="text-center fade-in">
+               
+            </div>
+               <div className="text-center fade-in">
                <a         href="https://chromewebstore.google.com/detail/defendly/aefmpomeojdaegmpddinpfifebnccmgi?hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -82,9 +84,7 @@ const CodeDemo = () => {
                     />
                     Add to Chrome
                   </a>
-
               </div>
-            </div>
           </div>
 
           
