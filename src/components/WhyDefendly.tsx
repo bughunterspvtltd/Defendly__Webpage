@@ -3,32 +3,32 @@ import { Search, MessageSquare, BarChart3, AlertTriangle, Brain, Layers } from '
 const WhyDefendly = () => {
   const reasons = [
     {
-      icon: <Search className="w-8 h-8 text-accent-purple" />,
+      icon: <Search className="w-8 h-8 text-white group-hover:text-[#008bff] transition-colors" />,
       title: "Go Beyond Vulnerability Lists",
       description: "We don't just identify threats - we prioritize them based on exploitability and business impact."
     },
     {
-      icon: <MessageSquare className="w-8 h-8 text-accent-purple" />,
+      icon: <MessageSquare className="w-8 h-8 text-white group-hover:text-[#008bff] transition-colors" />,
       title: "Ask in Natural Language",
       description: "Query your security data like you'd ask a colleague. Get plain-English answers to complex security questions."
     },
     {
-      icon: <BarChart3 className="w-8 h-8 text-accent-purple" />,
+      icon: <BarChart3 className="w-8 h-8 text-white group-hover:text-[#008bff] transition-colors" />,
       title: "Measure Security Posture",
       description: "Track your security standing with quantifiable metrics that evolve as your environment changes."
     },
     {
-      icon: <AlertTriangle className="w-8 h-8 text-accent-purple" />,
+      icon: <AlertTriangle className="w-8 h-8 text-white group-hover:text-[#008bff] transition-colors" />,
       title: "Instant Misconfiguration Detection",
       description: "Find misconfigurations across cloud services, containers, and infrastructure before attackers do."
     },
     {
-      icon: <Brain className="w-8 h-8 text-accent-purple" />,
+      icon: <Brain className="w-8 h-8 text-white group-hover:text-[#008bff] transition-colors" />,
       title: "Smarter Remediation with AI",
       description: "Our AI analyzes findings and recommends the most effective fixes based on your specific environment."
     },
     {
-      icon: <Layers className="w-8 h-8 text-accent-purple" />,
+      icon: <Layers className="w-8 h-8 text-white group-hover:text-[#008bff] transition-colors" />,
       title: "Seamless Integration",
       description: "Connect with your existing security tools and DevOps pipeline without disrupting workflows."
     }
@@ -43,10 +43,10 @@ const WhyDefendly = () => {
           {reasons.map((reason, index) => (
             <div 
               key={index} 
-              className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 fade-in"
+              className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 fade-in group"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className=" rounded-xl p-3 w-fit mb-6">
+              <div className="rounded-xl p-3 w-fit mb-6">
                 {reason.icon}
               </div>
               <h3 className="text-xl font-sora font-semibold mb-3 text-white">{reason.title}</h3>
@@ -58,5 +58,3 @@ const WhyDefendly = () => {
     </section>
   );
 };
-
-export default WhyDefendly;
