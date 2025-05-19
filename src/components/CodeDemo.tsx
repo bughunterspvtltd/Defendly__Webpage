@@ -2,7 +2,7 @@ import { Shield, Star, FileText, Download } from 'lucide-react';
 
 const CodeDemo = () => {
   return (
-    <section className="w-[95%] max-w-[1440px] mx-auto">
+    <section className="w-[95%] max-w-[1920px] mx-auto">
       <div className="bg-black px-8 py-16 relative overflow-hidden">
         {/* Background decorative elements */}
         <div className="absolute -bottom-40 -right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
