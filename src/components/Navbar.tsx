@@ -54,7 +54,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden w-[95%] max-w-[1440px] mx-auto mt-2">
-          <nav className="backdrop-blur-md bg-white/10 rounded-2xl overflow-hidden">
+          <nav className="backdrop-blur-md bg-white/30 rounded-2xl overflow-hidden">
             <ul className="flex flex-col">
               {['Home', 'Discover', 'Key Features', 'Why Defendly', "Who It's Built For", 'Contact'].map((item) => (
                 <li key={item} className="border-b border-white/10 last:border-b-0">
