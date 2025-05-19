@@ -17,7 +17,7 @@ const CodeDemo = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
-              <span className="text-xs text-gray-400">defendly_scan.json</span>
+              <span className="text-xs text-gray-400">Chrome Extension</span>
             </div>
 
             <div className="text-center mb-12 fade-in">
