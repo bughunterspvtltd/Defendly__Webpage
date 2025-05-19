@@ -2,7 +2,7 @@ import { Shield } from 'lucide-react';
 
 const ProductPreview = () => {
   return (
-    <section className="w-[95%] max-w-[1440px] mx-auto">
+    <section className="w-[95%] max-w-[1920px] mx-auto">
       <div style={{ background: 'linear-gradient(18deg, #000000 26%, #1A2D52  65%)' }} className="rounded-t-[24px] px-8 py-16">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="section-title text-white">See Defendly AI Assistant in Action</h2>
