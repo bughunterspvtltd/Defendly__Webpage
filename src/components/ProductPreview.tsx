@@ -29,7 +29,7 @@ const ProductPreview = () => {
                 autoPlay
                 loop
               >
-                <source src="/path/to/your/video.mp4" type="video/mp4" />
+                <source src="https://youtu.be/Q-FzRg6V-b4?si=3HYFfkqop4rpTkel" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
