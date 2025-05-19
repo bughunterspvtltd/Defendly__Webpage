@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="fade-in delay-200">
             <h3 className="text-lg font-sora font-semibold mb-4 text-white">Contact Us</h3>
             <p className="text-text-gray mb-2">Ready to secure your digital assets?</p>
-            <a href="mailto:hello@bughunters.io" className="text-primary-white hover:text-accent-blue transition-colors">
+            <a href="mailto:hello@bughunters.io" className="text-primary-white hover:text-accent-purple transition-colors">
               hello@bughunters.io
             </a>
             <div className="mt-6">
