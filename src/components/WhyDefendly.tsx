@@ -58,3 +58,5 @@ const WhyDefendly = () => {
     </section>
   );
 };
+
+export default WhyDefendly

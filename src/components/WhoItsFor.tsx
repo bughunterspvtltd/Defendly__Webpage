@@ -58,3 +58,5 @@ const WhoItsFor = () => {
     </section>
   );
 };
+
+export default WhoItsFor
