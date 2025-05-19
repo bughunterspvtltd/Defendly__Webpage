@@ -10,6 +10,24 @@ const Hero = () => {
          
         </div>
 
+        {/* Glass effect navigation menu - Desktop */}
+      <div className="hidden md:flex w-[95%] max-w-[1440px] mx-auto justify-center mt-8">
+        <nav className="backdrop-blur-md bg-white/10 rounded-full px-8 py-4">
+          <ul className="flex space-x-8">
+            {['Home', 'Discover', 'Key Features', 'Why Defendly', "Who It's Built For", 'Contact'].map((item) => (
+              <li key={item}>
+                <a 
+                  href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                  className="text-sm font-medium text-white/90 hover:text-white transition-colors"
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+
         {/* Content */}
         <div className="relative z-10 px-8 pt-28 pb-8 text-center">
           <div className="max-w-4xl mx-auto">
