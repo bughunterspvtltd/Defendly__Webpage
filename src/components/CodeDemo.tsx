@@ -70,19 +70,18 @@ const CodeDemo = () => {
                 </p>
               </div>
                   <div className="text-center fade-in">
-               <a
-  href="https://chromewebstore.google.com/detail/defendly/aefmpomeojdaegmpddinpfifebnccmgi?hl=en"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center bg-[#0A2540] text-white px-6 py-3 rounded-full font-medium hover:bg-[#1D66F8] transition-all shadow-md hover:shadow-xl"
->
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png"
-    alt="Chrome Icon"
-    className="w-5 h-5 mr-2"
-  />
-  Add to Chrome
-</a>
+               <a         href="https://chromewebstore.google.com/detail/defendly/aefmpomeojdaegmpddinpfifebnccmgi?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center bg-[#0A2540] text-white px-6 py-3 rounded-full font-medium hover:bg-[#0A2540] transition-all shadow-md hover:shadow-xl"
+                  >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png"
+                      alt="Chrome Icon"
+                      className="w-5 h-5 mr-2"
+                    />
+                    Add to Chrome
+                  </a>
 
               </div>
             </div>
