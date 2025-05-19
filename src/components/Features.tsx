@@ -3,7 +3,7 @@ import { ShieldCheck, TrendingUp, Zap, LineChart, Cpu, CheckCircle } from 'lucid
 const Features = () => {
   const features = [
     {
-      icon: <ShieldCheck className="feature-icon" />,
+      icon: <ShieldCheck className="w-8 h-8 text-white group-hover:text-[#008bff] transition-colors mb-4" />,
       title: "Cyber Hygiene Score",
       description: "Get a clear view ranking factors for both internal and external attack surfaces across your digital assets."
     },
