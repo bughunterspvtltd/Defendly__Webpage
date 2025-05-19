@@ -2,7 +2,7 @@ import { Shield, Linkedin, Twitter, Github } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="w-[95%] max-w-[1440px] mx-auto py-8">
+    <footer className="w-[95%] max-w-[1920px] mx-auto py-8">
       <div className="bg-[linear-gradient(140deg,_#000000_22%,_#00457F_65%)] rounded-[24px] px-8 py-16">
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
