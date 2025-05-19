@@ -46,6 +46,9 @@ const Hero = () => {
                 Try for free
               </button>
               <button className="secondary-button">
+                href="https://www.bughunters.io/contact-us"
+  target="_blank"
+  rel="noopener noreferrer"
                 Get a demo
               </button>
             </div>
