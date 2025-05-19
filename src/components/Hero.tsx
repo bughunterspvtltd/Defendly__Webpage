@@ -47,7 +47,7 @@ const Hero = () => {
               </button>
               <button
   className="secondary-button"
-  onClick={() => window.open('https://your-demo-link.com', '_blank', 'noopener,noreferrer')}
+  onClick={() => window.open('https://www.bughunters.io/contact-us', '_blank', 'noopener,noreferrer')}
 >
   Get a demo
 </button>
