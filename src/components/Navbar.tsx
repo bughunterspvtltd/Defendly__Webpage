@@ -45,23 +45,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Glass effect navigation menu - Desktop */}
-      <div className="hidden md:flex w-[95%] max-w-[1440px] mx-auto justify-center mt-8">
-        <nav className="backdrop-blur-md bg-white/10 rounded-full px-8 py-4">
-          <ul className="flex space-x-8">
-            {['Home', 'Discover', 'Key Features', 'Why Defendly', "Who It's Built For", 'Contact'].map((item) => (
-              <li key={item}>
-                <a 
-                  href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="text-sm font-medium text-white/90 hover:text-white transition-colors"
-                >
-                  {item}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
+      
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
